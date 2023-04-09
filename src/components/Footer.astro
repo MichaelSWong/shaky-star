@@ -1,0 +1,29 @@
+---
+import Social from './Social.astro'
+
+const github = 'github'
+const usernameG = 'michaelswong'
+const twitter = 'twitter'
+const usernameT = '@jah_mizik'
+const linkedin = 'linkedin'
+const usernameL = 'michaelwong'
+---
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+
+<footer>
+  <p>
+    Learn more about my projects on <a
+      href={`https://www.${github}.com/${usernameG}`}>{github}</a
+    >!
+  </p>
+  <Social platform={twitter} username={usernameT} />
+  <Social platform={github} username={usernameG} />
+  <Social platform={linkedin} username={usernameL} />
+</footer>
