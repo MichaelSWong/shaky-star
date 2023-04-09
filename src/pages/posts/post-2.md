@@ -1,6 +1,7 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: My Second Blog Post
-author: Astro Learner
+author: 'Michael Wong- Astro Learner'
 description: "After learning some Astro, I couldn't stop!"
 image:
   url: 'https://astro.build/assets/blog/astro-showcase/astro-showcase-screenshot.jpg'
@@ -8,9 +9,5 @@ image:
 pubDate: 2023-04-09
 tags: ['astro', 'blogging', 'learning in public', 'successes']
 ---
-
-# My Second Blog Post
-
-Published on: 2023-04-09
 
 After a successful first week learning Astro, I decided to try some more. I wrote and imported a small component from memory!
